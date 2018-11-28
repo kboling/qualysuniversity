@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <link rel="icon" href="img/favicon.jpg" sizes="16x16" type="image/jpg">
+
+
+    <title>Qualys University</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
+    <link href="vendor/simple-line-icons/css/simple-line-icons.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/stylish-portfolio.css" rel="stylesheet">
+
+  </head>
+
+  <body id="page-top">
+
+    <!-- Navigation -->
+    <a class="menu-toggle rounded" href="#">
+      <i class="fas fa-bars"></i>
+    </a>
+    <nav id="sidebar-wrapper">
+      <ul class="sidebar-nav">
+        <li class="sidebar-brand">
+          <a class="js-scroll-trigger" href="#page-top">Qualys University</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#page-top">Home</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#about">About</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#services">Assessments</a>
+        </li>
+        <!-- <li class="sidebar-nav-item">
+          <a class="js-scroll-trigger" href="#contact">Contact</a>
+        </li> -->
+      </ul>
+    </nav>
+
+    <!-- Header 
+    <header class="weekone d-flex">
+      <div class="container text-center my-auto whiteText">
+        <h1 class="mb-1 ">Week One</h1>
+        <h3 class="mb-5">
+          <em>Technical Support Engineer: New Hire Level 1</em>
+        </h3>
+        <a class="btn btn-primary btn-xl js-scroll-trigger" href="#about">Let's Begin</a>
+      </div>
+      <div class="overlay"></div>
+    </header> -->
+
+    <!-- Header 02 -->
+    <div class="image-container-week3">
+      <div class="text">Week 03</div>
+    </div>
+
+    <!-- About -->
+    <section class="content-section bg-light" id="about">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <h2 class="text-left">Objective(s):</h2>
+            <p class="lead mb-5 text-justify">This week you will be learning more about Qualys and your new role - Exciting! First things first, take sometime to set up your space, meet your new co-workers and your way around the office - knowing where the coffee is, is very important. Once you have gotten a little more settled in, start checking off your task list below and begin the Self Pace Study.</p>
+            <div class="text-center">
+              <a class="btn btn-dark btn-xl js-scroll-trigger" href="#Days">Begin Training</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Days of Week 01 -->
+    <section class="content-section bg-dark" id="Days">
+      <div class="container text-left">
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <div class="row">
+              <button class="tablink" onclick="openPage('Day 06', this, 'red')"id="defaultOpen">Day 06</button>
+              <button class="tablink" onclick="openPage('Day 07', this, 'green')">Day 07</button>
+              <button class="tablink" onclick="openPage('Day 08', this, 'blue')">Day 08</button>
+              <button class="tablink" onclick="openPage('Day 09', this, 'orange')">Day 09</button>
+              <button class="tablink" onclick="openPage('Day 10', this, 'purple')">Day 10</button>              
+            </div>
+            <div id="Day 06" class="tabcontent">
+              <h3>Tasks</h3>
+              <ul>
+                <li>Set Up Environment</li>
+                <li>New Hire HR Paperwork</li>
+                <li>Mentor Assignment - Set Up 1:1 Meetings</li>
+                <li>Security Awareness Training</li>
+                <li>Create Virtual Lab with Virtual Box</li>
+              </ul>
+              <br>
+
+              <!-- Accordian Menu for Day 06 Tasks -->
+              <div style="color: black">
+                <button class="accordion">Set Up Environment</button>
+                <div class="panel">
+                  <ul style="list-style-type:square;">
+                    <li>Create filters for Inbox ( this will make sense when you begin to have thousands of emails pouring in) <br> Example of What I have: <br><img src="https://static.makeuseof.com/wp-content/uploads/2011/11/gmail1.png" alt="Italian Trulli"></li>
+                    <li>Something</li>
+                    <li>Something</li>
+                    <li>Something</li>
+                    <li>Something</li>
+                  </ul>
+                </div>
+
+                <button class="accordion">New Hire HR Paperwork</button>
+                <div class="panel">
+                  <p>Lorem ipsum...</p>
+                </div>
+
+                <button class="accordion">Security Awareness Training</button>
+                <div class="panel">
+                  <p>Lorem ipsum...</p>
+                </div>
+
+                <!-- Script for Accordion Menu -->
+                <script type="text/javascript">
+                var acc = document.getElementsByClassName("accordion");
+                var i;
+
+                for (i = 0; i < acc.length; i++) {
+                    acc[i].addEventListener("click", function() {
+                        /* Toggle between adding and removing the "active" class,
+                        to highlight the button that controls the panel */
+                        this.classList.toggle("active");
+
+                        /* Toggle between hiding and showing the active panel */
+                        var panel = this.nextElementSibling;
+                        if (panel.style.display === "block") {
+                            panel.style.display = "none";
+                        } else {
+                            panel.style.display = "block";
+                        }
+                    });
+                }
+                </script>
+              </div>
+              <!-- Original Setup 
+              <h3>Set Up Environment</h3>
+              <ul style="list-style-type:square;">
+                <li>Create filters for Inbox ( this will make sense when you begin to have thousands of emails pouring in) <br> Example of What I have: <br><img src="https://static.makeuseof.com/wp-content/uploads/2011/11/gmail1.png" alt="Italian Trulli"></li>
+                <li>Something</li>
+                <li>Something</li>
+                <li>Something</li>
+                <li>Something</li>
+              </ul> -->
+            </div>
+
+            <div id="Day 07" class="tabcontent">
+              <h3>Product Introduction</h3>
+              <p>Days 2 - 7 will be Self Pace Courses that introduce you to the core products and strategies. Today you'll begin Vulnerability Management. See video below:</p> 
+              <br>
+              <h3>Vulnerability Management</h3>
+              <iframe width="425" height="240" src="https://www.youtube.com/embed/hbyIz_co_iw" frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div id="Day 08" class="tabcontent">
+              <h3>Product Introduction</h3> 
+              <div class="row">
+                <div class="col-lg-6">
+                  <h3>Reporting Strategies</h3>
+                    <iframe width="425" height="240" src="https://www.youtube.com/embed/hbyIz_co_iw" frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+                <div>
+                  <h3>Scanning Strategies</h3>
+                    <iframe width="425" height="240" src="https://www.youtube.com/embed/hbyIz_co_iw" frameborder="2" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                </div>
+              </div>
+            </div>
+
+            <div id="Day 09" class="tabcontent">
+              <h3>About</h3>
+              <p>Who we are and what we do.</p>
+            </div>
+            <div id="Day 10" class="tabcontent">
+              <h3>About</h3>
+              <p>Who we are and what we do.</p>
+            </div>
+            <!-- Script for Full page Tab/s -->
+            <script type="text/javascript">function openPage(pageName, elmnt, color) 
+            {
+                // Hide all elements with class="tabcontent" by default */
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+
+                // Remove the background color of all tablinks/buttons
+                tablinks = document.getElementsByClassName("tablink");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].style.backgroundColor = "";
+                }
+
+                // Show the specific tab content
+                document.getElementById(pageName).style.display = "block";
+
+                // Add the specific color to the button used to open the tab content
+                elmnt.style.backgroundColor = color;
+            }
+
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click();
+            </script>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer text-center">
+      <div class="container">
+        <ul class="list-inline mb-5">
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="#">
+              <i class="icon-social-facebook"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white mr-3" href="#">
+              <i class="icon-social-twitter"></i>
+            </a>
+          </li>
+          <li class="list-inline-item">
+            <a class="social-link rounded-circle text-white" href="#">
+              <i class="icon-social-github"></i>
+            </a>
+          </li>
+        </ul>
+        <p class="text-muted small mb-0">Copyright &copy; Qualys Univeristy by Karl Bolinger 2018</p>
+      </div>
+    </footer>
+
+    <!-- Scroll to Top Button-->
+    <a class="scroll-to-top rounded js-scroll-trigger" href="#page-top">
+      <i class="fas fa-angle-up"></i>
+    </a>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom scripts for this template -->
+    <script src="js/stylish-portfolio.min.js"></script>
+
+  </body>
+
+</html>
